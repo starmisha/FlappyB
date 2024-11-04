@@ -1,0 +1,28 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	background-color: #70c5ce;
+}
+
+canvas {
+	border: 2px solid #000;
+}
+.textured-button {
+	display: none;
+	/*  Скрываем кнопку по умолчанию */
+	
+	border: none;
+	cursor: pointer;
+	background-image: url('images/doski-derevo-fon-1.jpg');
+	/* Путь к вашей текстуре */
+	background-size: cover;
+	/*  Чтобы текстура покрывала всю кнопку */
+	color: white;
+
+}
+p {
+	display: none !important;
+}
